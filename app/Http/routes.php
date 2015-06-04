@@ -19,3 +19,5 @@ Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
+
+Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');

@@ -145,6 +145,11 @@ return [
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
 
+        /*
+         * User Added Providers...
+         */
+        'Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider',
+        'Barryvdh\Debugbar\ServiceProvider',
 	],
 
 	/*
@@ -193,6 +198,10 @@ return [
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
 
+        /*
+         * User added aliases...
+         */
+        'Debugbar'  => 'Barryvdh\Debugbar\ServiceProvider',
 	],
 
 ];
